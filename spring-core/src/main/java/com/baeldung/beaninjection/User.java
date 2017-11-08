@@ -1,15 +1,15 @@
 package com.baeldung.beaninjection;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 @Component
 public class User {
 
-    private Property property;
-
-    public User(){
-    }
+    private Asset asset;
 
     @Autowired
-    public void setProperty(Property property) {
-        this.property = property;
+    public void setAsset(Asset asset) {
+        this.asset = asset;
     }
 }

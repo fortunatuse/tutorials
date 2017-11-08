@@ -8,6 +8,7 @@ import com.baeldung.setterdi.Config;
 import com.baeldung.setterdi.domain.Car;
 
 public class SpringRunner {
+
     public static void main(String[] args) {
         Car toyota = getCarFromXml();
 

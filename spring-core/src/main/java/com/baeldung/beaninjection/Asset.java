@@ -1,9 +1,11 @@
 package com.baeldung.beaninjection;
 
-@Component
-public class Property {
+import org.springframework.stereotype.Component;
 
-    private String name;
+@Component
+public class Asset {
+
+    private String name = "My Asset";
 
     public String getName() {
         return name;
